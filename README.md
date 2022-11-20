@@ -51,4 +51,4 @@ chrome\
 soon:\
 berry\
 sway\
-and other...\
+and other...

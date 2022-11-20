@@ -1,0 +1,45 @@
+#!/bin/sh
+
+# ██
+# ░██              ██████
+# ░██       ██████░██░░░██ ███     ██ ██████████
+# ░██████  ██░░░░ ░██  ░██░░██  █ ░██░░██░░██░░██
+# ░██░░░██░░█████ ░██████  ░██ ███░██ ░██ ░██ ░██
+# ░██  ░██ ░░░░░██░██░░░   ░████░████ ░██ ░██ ░██
+# ░██████  ██████ ░██      ███░ ░░░██ ███ ░██ ░██
+# ░░░░░   ░░░░░░  ░░      ░░░    ░░░ ░░░  ░░  ░░
+
+#inspired by gk
+_c() { bspc config "$@"; }
+_m() { bspc monitor "$@"; }
+_s() {
+	pkill -x "$1"
+	{
+		sleep 0.1
+		"$@" &
+	}
+}
+
+#monitors
+_m -d 1 2 3 4 5 6 7 8 9
+
+#borders
+_c border_width 3
+_c normal_border_color '#2a2a2a'
+_c focused_border_color '#5655050'
+_c borderless_monocle false
+_c gapless_monocle false
+
+#misc
+_c window_gap 10
+_c focus_follows_pointer true
+
+#startup
+_s sxhkd
+_s picom -b
+_s xsetroot -cursor_name left_ptr
+_s xrdb -load ~/.Xresources
+_s pulseaudio -D
+_s nitrogen --restore
+_s setxkbmap -layout "us(basic),ru(winkeys)" -option "grp:rctrl_toggle,numpad:microsoft,grp_led:scroll"
+_s numlockx on

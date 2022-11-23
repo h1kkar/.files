@@ -34,7 +34,7 @@ term=urxvt
 hc keybind $Mod-Return spawn $term 
 
 # launcher
-hc keybind $Mod-d spawn rofi -show run
+hc keybind $Mod-d spawn dmenu_run -b -i -fn Fira\ Code-9 -nb "#282828" -nf "#ebdbb2" -sb "#ebdbb2" -sf "#282828"
 
 # screenshot
 hc keybind $Mod-Print spawn python $HOME/.scr.py

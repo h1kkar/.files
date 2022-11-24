@@ -16,7 +16,7 @@ hc() {
 hc emit_hook reload
 
 # startup
-feh --no-fehbg --bg-fill "$HOME/.wp/lighthouse.jpg"
+feh --no-fehbg --bg-fill "$HOME/.wp/river2.jpg"
 setxkbmap -layout "us(basic),ru(winkeys)" -option "grp:rctrl_toggle,numpad:microsoft,grp_led:scroll"
 xrdb -merge $HOME/.Xresources
 # remove all existing keybindings

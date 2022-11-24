@@ -40,13 +40,15 @@ alias his="history"
 alias del="rm -rf"
 alias xup="xrdb ~/.Xresources"
 alias tree="exa --tree -L 2 -a"
+alias g="git"
+alias img="feh"
 
 # bin
 alias color="cd $HOME/ && ./.c.sh"
 alias fet.sh="cd $HOME && ./.fet.sh"
-alias bird="cd $HOME && ./.bird"
-alias monke="cd $HOME && ./.monke_bild"
-alias gameboy="cd $HOME && ./.gameboy"
+alias bird="cd $HOME && cat .bird"
+alias monke="cd $HOME && cat .monke_bild"
+alias gameboy="cd $HOME && cat .gameboy"
 alias pulse="python .pulse.py"
 
 # pkgs

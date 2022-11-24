@@ -16,7 +16,7 @@ hc() {
 hc emit_hook reload
 
 # startup
-nitrogen --restore
+feh --no-fehbg --bg-fill "$HOME/.wp/lighthouse.jpg"
 setxkbmap -layout "us(basic),ru(winkeys)" -option "grp:rctrl_toggle,numpad:microsoft,grp_led:scroll"
 xrdb -merge $HOME/.Xresources
 # remove all existing keybindings

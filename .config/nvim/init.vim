@@ -21,11 +21,19 @@ Plug 'preservim/nerdtree'
 Plug 'junegunn/goyo.vim'
 Plug 'tpope/vim-eunuch'
 Plug 'nvie/vim-flake8'
-Plug 'vim-scripts/Pydiction'
 Plug 'vim-scripts/indentpython.vim'
+Plug 'neoclide/coc.nvim'
+Plug 'yuttie/comfortable-motion.vim'
+Plug 'ryanoasis/vim-devicons'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
+let g:airline_powerline_fonts = 1
+
+set completeopt-=preview
+
 syntax enable
+set encoding=UTF-8
 set noswapfile
 set noshowmode
 set number
@@ -37,16 +45,15 @@ set foldmethod=marker
 set foldtext=MyFoldText()
 set foldmarker={{{,}}}
 set nocursorline
-set showmatch				" Show matching brackets.
+set showmatch
 set linebreak
-set ignorecase				" Do case insensitive matching
-set smartcase				" Do smart case matching
-set clipboard+=unnamedplus	" Use System Clipboard
-set mouse=a					" Enable mouse usage (all modes)
-set tabstop=4     
-set shiftwidth=4  
-set softtabstop=4 
+set ignorecase
+set smartcase
+set clipboard+=unnamedplus
+set mouse=a
 set fillchars+=vert:│,fold:\ ,eob:\ 
 set nolist
 set listchars=tab:│\ 
+set autoindent
+
 colorscheme gruvbox

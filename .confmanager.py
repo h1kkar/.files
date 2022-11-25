@@ -16,7 +16,7 @@ space = "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 print (space)
 
 ### editor
-editor = "vim"
+editor = "nvim"
 
 ### print list config
 print ("0  alacritty")

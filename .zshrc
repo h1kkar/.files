@@ -7,7 +7,6 @@
 # ██████ ██████ ░██  ░██░███   ░░█████
 #░░░░░░ ░░░░░░  ░░   ░░ ░░░     ░░░░░
 export ZSH="$HOME/.oh-my-zsh"
-#ZSH_THEME="robbyrussell"
 export PROMPT='%F{red}%B*%b%f '
 
 plugins=(git)
@@ -34,7 +33,6 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias py="python"
 alias pi="ping 1.1.1.1 -c 1"
-alias n="nano"
 alias c="clear"
 alias q="exit"
 alias root="sudo -i"
@@ -44,15 +42,18 @@ alias pac="yay -S"
 alias syu="yay -Syu"
 alias rcc="yay -Rcc"
 alias his="history"
-alias _="cd"
 alias del="rm -rf"
+alias xup="xrdb ~/.Xresources"
+alias tree="ea --tree -L 2 -a"
+alias g="git"
+alias img="feh"
 
 # bin
 alias color="cd $HOME/ && ./.c.sh"
 alias fet.sh="cd $HOME && ./.fet.sh"
-alias bird="cd $HOME && ./.bird"
-alias monke="cd $HOME && ./.monke_bild"
-alias gameboy="cd $HOME && ./.gameboy"
+alias bird="cd $HOME && cat .bird"
+alias monke="cd $HOME && cat .monke_bild"
+alias gameboy="cd $HOME && cat .gameboy"
 alias pulse="python .pulse.py"
 
 # pkgs
@@ -67,5 +68,5 @@ alias ascii="figlet"
 alias wood="cbonsai -l"
 alias calendar="khal calendar"
 alias duck="ddgr"
-alias time="pdd"
-alias vam="vim -R .art.txt"
+alias ti="pdd"
+alias v="nvim"

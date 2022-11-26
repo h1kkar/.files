@@ -12,10 +12,10 @@
 ### exports
 set -U fish_greeting ""
 
-export VISUAL=vim
+export VISUAL=nvim
 export EDITOR="$VISUAL"
 export BROWSER=qutebrowser
-export XDG_CURRENT_DESKTOP=herbstluftw
+export XDG_CURRENT_DESKTOP=herbstluftwm
 
 ### aliases
 

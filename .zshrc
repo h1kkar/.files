@@ -34,7 +34,7 @@ alias egrep='egrep --color=auto'
 alias py="python"
 alias pi="ping 1.1.1.1 -c 1"
 alias c="clear"
-alias q="exit"
+alias :q="exit"
 alias root="sudo -i"
 alias untar="tar -zxvf"
 alias gc="git clone"

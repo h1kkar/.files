@@ -27,7 +27,6 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias py="python"
 alias pi="ping 1.1.1.1 -c 1"
-alias n="nano"
 alias c="clear"
 alias q="exit"
 alias root="sudo -i"
@@ -50,6 +49,7 @@ alias bird="cd $HOME && cat .bird"
 alias monke="cd $HOME && cat .monke_bild"
 alias gameboy="cd $HOME && cat .gameboy"
 alias pulse="python .pulse.py"
+alias calc="./.calc.py"
 
 # pkgs
 alias f="ranger"

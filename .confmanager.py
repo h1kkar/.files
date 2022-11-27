@@ -1,3 +1,4 @@
+#!/usr/bin/python
 #                             ████
 #                            ░██░
 #  █████   ██████  ███████  ██████
@@ -23,12 +24,13 @@ print ("0  alacritty")
 print ("1  dunst")
 print ("2  fish")
 print ("3  herbstluftwm")
-print ("4  picom")
-print ("5  qutebrowser")
-print ("6  rofi")
-print ("7  startpage")
-print ("8  urxvt")
-print ("9  vim")
+print ("4  nvim")
+print ("5  picom")
+print ("6  qutebrowser")
+print ("7  rofi")
+print ("8  startpage")
+print ("9  urxvt")
+print ("10  vim")
 
 ### input
 a = int(input("\nthis is "))
@@ -51,12 +53,16 @@ elif a == 2:
 elif a == 3:
 	os.system (editor + " $HOME/.config/herbstluftwm/autostart")
 
-# picom
+# nvim
 elif a == 4:
+    os.system (editor + " $HOME/.config/nvim/init.vim")
+
+# picom
+elif a == 5:
 	os.system (editor + " $HOME/.config/picom/picom.conf")
 
 # qutebrowser
-elif a == 5:
+elif a == 6:
 	print (space, "\n\n0 config\n1 quickmarks\n")
 	b2 = int(input("this is "))
 
@@ -69,19 +75,19 @@ elif a == 5:
 		os.system (editor + " $HOME/.config/qutebrowser/quickmarks")
 
 # rofi
-elif a == 6:
+elif a == 7:
 	os.system (editor + " $HOME/.config/rofi/config.rasi")
 
 # startpage
-elif a == 7:
+elif a == 8:
 	os.system (editor + " $HOME/.startpage/index.html")
 
 # urxvt
-elif a == 8:
+elif a == 9:
     os.system (editor + " $HOME/.Xresources")
 
 # vim
-elif a == 9:
+elif a == 10:
     os.system (editor + " $HOME/.vimrc")
 
 ### exit conf

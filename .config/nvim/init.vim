@@ -29,6 +29,9 @@ Plug 'neoclide/coc.nvim'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-commentary'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 call plug#end()
 
 let g:airline_powerline_fonts = 1
@@ -61,3 +64,4 @@ set autoindent
 
 colorscheme gruvbox
 map <F5> :NERDTreeToggle<CR>
+let FZF_DEFAULT_COMMAND='find .'

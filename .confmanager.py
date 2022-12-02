@@ -30,7 +30,7 @@ print ("6  qutebrowser")
 print ("7  rofi")
 print ("8  startpage")
 print ("9  urxvt")
-print ("10  vim")
+print ("10 vim")
 
 ### input
 a = int(input("\nthis is "))

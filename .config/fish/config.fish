@@ -28,7 +28,7 @@ alias egrep='egrep --color=auto'
 alias py="python"
 alias pi="ping 1.1.1.1 -c 1"
 alias c="clear"
-alias q="exit"
+alias :q="exit"
 alias root="sudo -i"
 alias untar="tar -zxvf"
 alias gc="git clone"
@@ -41,6 +41,7 @@ alias xup="xrdb ~/.Xresources"
 alias tree="exa --tree -L 2 -a"
 alias g="git"
 alias img="feh"
+alias flashmnt="sudo mount dev/sdc1 /home/hikkar/.flash/"
 
 # bin
 alias color="cd $HOME/ && ./.c.sh"
@@ -53,7 +54,7 @@ alias calc="./.calc.py"
 
 # pkgs
 alias f="ranger"
-alias m="cmus"
+alias m="musikcube"
 alias clock="tty-clock -c -n"
 alias ht="htop"
 alias cm="cmatrix"

@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # ██████
 # ░██░░░██  ██████  ███     ██  █████  ██████
 # ░██  ░██ ██░░░░██░░██  █ ░██ ██░░░██░░██░░█
@@ -31,7 +32,7 @@ elif a == 1:
 
 # sleep
 elif a == 2:
-	os.system ("sudo systemctl suspend")
+	os.system ("systemctl suspend")
 	os.system ("xdotool key super+w")
 
 # logout

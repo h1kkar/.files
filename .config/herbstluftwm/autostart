@@ -1,13 +1,7 @@
 #!/usr/bin/env bash
-#
-#  ██                     ██                ██    ██           ████   ██
-# ░██                    ░██               ░██   ░██          ░██░   ░██
-# ░██       █████  ██████░██       ██████ ██████ ░██ ██   ██ ██████ ██████
-# ░██████  ██░░░██░░██░░█░██████  ██░░░░ ░░░██░  ░██░██  ░██░░░██░ ░░░██░
-# ░██░░░██░███████ ░██ ░ ░██░░░██░░█████   ░██   ░██░██  ░██  ░██    ░██
-# ░██  ░██░██░░░░  ░██   ░██  ░██ ░░░░░██  ░██   ░██░██  ░██  ░██    ░██
-# ░██  ░██░░██████░███   ░██████  ██████   ░░██  ███░░██████  ░██    ░░██
-# ░░   ░░  ░░░░░░ ░░░    ░░░░░   ░░░░░░     ░░  ░░░  ░░░░░░   ░░      ░░
+#   ┬ ┬┌─┐┬─┐┌┐ ┌─┐┌┬┐┬  ┬ ┬┌─┐┌┬┐┬ ┬┌┬┐
+#   ├─┤├┤ ├┬┘├┴┐└─┐ │ │  │ │├┤  │ ││││││
+#   ┴ ┴└─┘┴└─└─┘└─┘ ┴ ┴─┘└─┘└   ┴ └┴┘┴ ┴
 
 hc() {
     herbstclient "$@"
@@ -16,9 +10,11 @@ hc() {
 hc emit_hook reload
 
 # startup
-feh --no-fehbg --bg-fill "$HOME/.wp/sky2.jpg"
+feh --bg-fill "$HOME/.wp/wood.jpg"
 setxkbmap -layout "us(basic),ru(winkeys)" -option "grp:rctrl_toggle,numpad:microsoft,grp_led:scroll"
 xrdb -merge $HOME/.Xresources
+pkill sxhkd
+
 # remove all existing keybindings
 hc keyunbind --all
 
@@ -39,8 +35,8 @@ hc keybind $Mod-d spawn dmenu_run -b -i -fn Fira\ Code-9 -nb "#282828" -nf "#ebd
 # screenshot
 hc keybind $Mod-Print spawn python $HOME/.scr.py
 
-# thunar
-hc keybind $Mod-a spawn thunar
+# ranger
+hc keybind $Mod-a spawn $term --hold -e ranger
 
 # qutebrowser
 hc keybind $Mod-q spawn qutebrowser

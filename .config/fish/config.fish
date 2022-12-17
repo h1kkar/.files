@@ -1,11 +1,6 @@
-#   ████ ██         ██
-#  ░██░ ░░         ░██
-# ██████ ██  ██████░██
-#░░░██░ ░██ ██░░░░ ░██████
-#  ░██  ░██░░█████ ░██░░░██
-#  ░██  ░██ ░░░░░██░██  ░██
-#  ░██  ░██ ██████ ░██  ░██
-#  ░░   ░░ ░░░░░░  ░░   ░░
+#   ┌─┐┬┌─┐┬ ┬
+#   ├┤ │└─┐├─┤
+#   └  ┴└─┘┴ ┴
 
 ./.c.sh
 
@@ -58,7 +53,7 @@ alias m="musikcube"
 alias clock="tty-clock -c -n"
 alias ht="htop"
 alias cm="cmatrix"
-alias ascii="figlet -f 3d"
+alias ascii="figlet -f Calvin\ S"
 alias wood="cbonsai -l"
 alias calendar="khal calendar"
 alias duck="ddgr"

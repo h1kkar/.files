@@ -12,16 +12,20 @@ wm: herbstluftwm (and bspwm or berry)
 
 **other sotfware:**
 ```
-cava  cbonsai  cmatrix  dmenu  qutebrowser
-rofi  nitrogen  ranger  fet.sh  dunst
-picom  sxhkd  zathura  tty-clock  arttime
-thunar  scrot  menulibre  python-pip
-xdotool  jdk8-openjdk  jre8-openjdk
-jre8-openjdk-headless  tlauncher  wttr
-htop  rhythmbox  rhythmbox-plugin-yandex-music
-lxappearance  libreoffice-fresh  libreoffice-fresh-ru
-ly  telegram-desktop  subl  figlet  khal  ddgr  pdd
-pulseaudio  pamac  pamixer  obs-studio  chrome
+cava  cbonsai  cmatrix  dmenu
+qutebrowser  rofi  nitrogen
+ranger  fet.sh  dunst
+picom  sxhkd  zathura  tty-clock
+arttime  thunar  scrot  menulibre
+python-pip  xdotool  jdk8-openjdk
+jre8-openjdk  jre8-openjdk-headless
+tlauncher  wttr  htop  rhythmbox
+rhythmbox-plugin-yandex-music
+lxappearance  libreoffice-fresh
+libreoffice-fresh-ru  ly
+telegram-desktop  subl  figlet
+khal  ddgr  pdd  pulseaudio
+pamac  pamixer  obs-studio  chrome
 ````
 **soon:**
 ```

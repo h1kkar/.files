@@ -8,7 +8,7 @@ wm: herbstluftwm (and bspwm)
 ```
 
 **screenshot**
-![](https://raw.githubusercontent.com/xero/dotfiles/master/previews/solid_gold.png)![](https://raw.githubusercontent.com/h1kkar/herbst_dot/master/.screenshot/scr.png
+<img src="./.screehshot/scr.png">
 
 **other sotfware:**
 ```

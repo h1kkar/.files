@@ -1,11 +1,15 @@
 # herbst_dot
-**this is my dots**
+**this is hikkar dots**
 ```
 system: arcolinux
 shell: fish(and zsh or bash)
 term: xterm (and alacritty)
 wm: herbstluftwm (and bspwm)
 ```
+
+**screenshot**
+![](https://raw.githubusercontent.com/xero/dotfiles/master/previews/solid_gold.png)![](https://raw.githubusercontent.com/h1kkar/herbst_dot/master/.screenshot/scr.png
+
 **other sotfware:**
 ```
 cava

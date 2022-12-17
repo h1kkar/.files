@@ -8,7 +8,7 @@ wm: herbstluftwm (and bspwm)
 ```
 
 **screenshot**
-<img src="./.screehshot/scr.png">
+<img src="https://github.com/h1kkar/herbst_dot/blob/master/.screenshot/scr.py">
 
 **other sotfware:**
 ```

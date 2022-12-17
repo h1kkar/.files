@@ -1,10 +1,13 @@
 # herbst_dot
-this is my dots\
+> this is my dots\
+```
 system: arcolinux\
 shell: fish(and zsh or bash)\
 term: xterm (and alacritty)\
 wm: herbstluftwm (and bspwm)\
-other sotfware:\
+```
+> other sotfware:\
+```
 cava\
 cbonsai\
 cmatrix\
@@ -48,7 +51,10 @@ pamac\
 pamixer\
 obs-studio\
 chrome\
-soon:\
+````
+> soon:\
+```
 berry\
 sway\
 and other...
+```

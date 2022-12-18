@@ -30,7 +30,7 @@ term=alacritty
 hc keybind $Mod-Return spawn $term 
 
 # launcher
-hc keybind $Mod-d spawn dmenu_run -b -i -fn Fira\ Code-9 -nb "#282828" -nf "#ebdbb2" -sb "#ebdbb2" -sf "#282828"
+hc keybind $Mod-d spawn dmenu_run -b -i -fn Iosevka-9 -nb "#000000" -nf "#ffffff" -sb "#ffffff" -sf "#000000"
 
 # screenshot
 hc keybind $Mod-Print spawn python $HOME/.scr.py

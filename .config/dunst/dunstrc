@@ -11,7 +11,7 @@
     padding = 20
     horizontal_padding = 15
     frame_width = 3
-    frame_color = "#404040"
+    frame_color = "#202020"
     separator_color = frame
     sort = yes
     font = Fira Code 12
@@ -39,19 +39,19 @@
     mouse_right_click = close_all
 
 [urgency_low]
-    background = "#282828"
-    foreground = "#282828"
+    background = "#000000"
+    foreground = "#ffffff"
     timeout = 10
 
 [urgency_normal]
-    background = "#282828"
-    foreground = "#ebdbb2"
+    background = "#000000"
+    foreground = "#ffffff"
     timeout = 15
 
 [urgency_critical]
-    background = "#cc241d"
-    foreground = "#1d2021"
-    frame_color ="#404040"
+    background = "#000000"
+    foreground = "#ffffff"
+    frame_color ="#202020"
     timeout = 10
 
 # vim: ft=cfg

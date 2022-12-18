@@ -10,7 +10,7 @@ hc() {
 hc emit_hook reload
 
 # startup
-feh --bg-fill "$HOME/.wp/wood.jpg"
+feh --bg-fill "$HOME/.wp/sea2.jpg"
 setxkbmap -layout "us(basic),ru(winkeys)" -option "grp:rctrl_toggle,numpad:microsoft,grp_led:scroll"
 xrdb -merge $HOME/.Xresources
 pkill sxhkd
@@ -135,10 +135,10 @@ hc attr theme.tiling.reset 1
 hc attr theme.floating.reset 1
 
 #frame
-hc set frame_border_active_color '#404040'
-hc set frame_border_normal_color '#282828'
-hc set frame_bg_normal_color '#282828'
-hc set frame_bg_active_color '#404040'
+hc set frame_border_active_color '#000000'
+hc set frame_border_normal_color '#202020'
+hc set frame_bg_normal_color '#000000'
+hc set frame_bg_active_color '#202020'
 
 hc set frame_border_width 3
 hc set always_show_frame on
@@ -153,20 +153,20 @@ sc set snap_distance 10
 
 # window
 
-hc attr theme.active.color '#404040'
-hc attr theme.normal.color '#282828'
+hc attr theme.active.color '#202020'
+hc attr theme.normal.color '#000000'
 hc attr theme.urgent.color orange
 hc attr theme.inner_width 0
-hc attr theme.inner_color '#404040'
+hc attr theme.inner_color '#202020'
 hc attr theme.border_width 0
 hc attr theme.floating.border_width 3
 hc attr theme.floating.outer_width 8
-hc attr theme.floating.outer_color '#404040'
-hc attr theme.active.outer_color '#404040'
+hc attr theme.floating.outer_color '#202020'
+hc attr theme.active.outer_color '#202020'
 hc attr theme.floating.inner_width 0
 hc attr theme.floating.inner_color '#404040'
 hc attr theme.active.inner_color '#ce9c85'
-hc attr theme.background_color '#2a2a2a'
+hc attr theme.background_color '#000000'
 
 hc set window_gap 2
 hc set smart_window_surroundings on

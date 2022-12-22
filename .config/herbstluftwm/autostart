@@ -13,6 +13,7 @@ hc emit_hook reload
 feh --bg-fill "$HOME/.wp/sea2.jpg"
 setxkbmap -layout "us(basic),ru(winkeys)" -option "grp:rctrl_toggle,numpad:microsoft,grp_led:scroll"
 xrdb -merge $HOME/.Xresources
+pulseaudio -D
 pkill sxhkd
 
 # remove all existing keybindings
@@ -199,4 +200,3 @@ done
 hc auto_detect_monitors
 
 python $HOME/.pulse.py
-picom

@@ -81,3 +81,5 @@ v | -v | --vim | vim)
     ;;
 
 esac
+
+herbstclient close

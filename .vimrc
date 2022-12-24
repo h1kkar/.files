@@ -1,6 +1,6 @@
-#   ┬  ┬┬┌┬┐
-#   └┐┌┘││││
-#    └┘ ┴┴ ┴
+"   ┬  ┬┬┌┬┐
+"   └┐┌┘││││
+"    └┘ ┴┴ ┴
 
 let data_dir = has('vim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))

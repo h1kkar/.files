@@ -13,7 +13,7 @@ c.url.searchengines = {
         "aur" : "https://aur.archlinux.org/packages/?O=0&K={}",
 }
 
-c.url.start_pages = [ "~/.startpage/index.html" ]
+c.url.start_pages = [ "ya.ru" ]
 
 c.fonts.completion.entry = "12px iosevka"
 c.fonts.completion.category = "12px iosevka"

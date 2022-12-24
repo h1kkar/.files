@@ -8,6 +8,12 @@ filetype off
 colorscheme gruvbox
 
 call plug#begin()
+
+" statusline
+"Plug 'vim-airline/vim-airline'
+"Plug 'itchyny/lightline.vim'
+
+" syntax
 Plug 'tpope/vim-surround'    
 Plug 'ap/vim-css-color'
 Plug 'Yggdroot/indentLine'
@@ -22,20 +28,28 @@ Plug 'tpope/vim-eunuch'
 Plug 'nvie/vim-flake8'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'neoclide/coc.nvim'
+Plug 'tpope/vim-commentary'
+
+" ui
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'ryanoasis/vim-devicons'
-"Plug 'vim-airline/vim-airline'
-Plug 'tpope/vim-commentary'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'nvim-neo-tree/neo-tree.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'MunifTanjim/nui.nvim'
-"Plug 'danishprakash/vim-yami'
-Plug 'nikolvs/vim-sunbather'
-"Plug 'itchyny/lightline.vim'
+
+" colorscheme
+Plug 'danishprakash/vim-yami'   "yami
+Plug 'nikolvs/vim-sunbather'    "sunbather
+Plug 'n1ghtmare/noirblaze-vim'  "noirblaze
+Plug 'jaredgorski/fogbell.vim'  "fogbell(_light; lite)
+"gruvbox
+"true-monochrome
 call plug#end()
+
+colorscheme true-monochrome
 
 "let g:airline_powerline_fonts = 1
 
@@ -64,8 +78,9 @@ set fillchars+=vert:│,fold:\ ,eob:\
 set nolist
 set listchars=tab:│\ 
 set autoindent
-
-colorscheme true-monochrome
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 map <F5> :NERDTreeToggle<CR>
 let FZF_DEFAULT_COMMAND='find .'

@@ -10,7 +10,7 @@ hc() {
 hc emit_hook reload
 
 # startup
-feh --bg-fill "$HOME/.wp/sea2.jpg"
+feh --bg-fill "$HOME/.wp/cereals.jpg"
 setxkbmap -layout "us(basic),ru(winkeys)" -option "grp:rctrl_toggle,numpad:microsoft,grp_led:scroll"
 xrdb -merge $HOME/.Xresources
 pulseaudio -D
@@ -34,7 +34,7 @@ hc keybind $Mod-Return spawn $term
 hc keybind $Mod-d spawn dmenu_run -b -i -fn Iosevka-9 -nb "#000000" -nf "#ffffff" -sb "#ffffff" -sf "#000000"
 
 # screenshot
-hc keybind $Mod-Print spawn python $HOME/.scr.py
+hc keybind $Mod-Print spawn bash $HOME/.scr.sh
 
 # ranger
 hc keybind $Mod-a spawn $term --hold -e ranger
@@ -43,7 +43,7 @@ hc keybind $Mod-a spawn $term --hold -e ranger
 hc keybind $Mod-q spawn qutebrowser
 
 # config manager
-hc keybind $Mod-m spawn $term --hold -e python $HOME/.confmanager.py
+hc keybind $Mod-m spawn $term --hold -e bash $HOME/.conf.sh
 
 # power manager
 hc keybind $Mod-x spawn $term --hold -e python $HOME/.power.py

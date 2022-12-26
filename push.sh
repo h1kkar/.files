@@ -2,6 +2,7 @@
 git add -A
 
 # commit
+echo "commit:"
 read m
 git commit -m "$m"
 

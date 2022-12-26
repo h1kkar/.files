@@ -37,7 +37,7 @@ alias tree="exa --tree -L 2 -a"
 alias g="git"
 alias img="feh"
 alias flashmnt="sudo mount dev/sdc1 /home/hikkar/.flash/"
-alias dot="cd .dot"
+alias dot="cd .dot/herbst_dot"
 
 # bin
 alias color="cd $HOME/ && ./.c.sh"

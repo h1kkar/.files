@@ -37,6 +37,7 @@ alias tree="exa --tree -L 2 -a"
 alias g="git"
 alias img="feh"
 alias flashmnt="sudo mount dev/sdc1 /home/hikkar/.flash/"
+alias dot="cd .dot"
 
 # bin
 alias color="cd $HOME/ && ./.c.sh"
@@ -57,5 +58,4 @@ alias ascii="figlet -f Calvin\ S"
 alias wood="cbonsai -l"
 alias calendar="khal calendar"
 alias duck="ddgr"
-alias ti="pdd"
 alias v="nvim"

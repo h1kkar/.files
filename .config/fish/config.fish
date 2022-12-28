@@ -45,7 +45,7 @@ alias fet.sh="cd $HOME && ./.fet.sh"
 alias bird="cd $HOME && cat .bird"
 alias monke="cd $HOME && cat .monke_bild"
 alias gameboy="cd $HOME && cat .gameboy"
-alias pulse="python .pulse.py"
+alias pulse="bash .pulse.sh"
 alias calc="./.calc.py"
 
 # pkgs

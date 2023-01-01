@@ -15,7 +15,7 @@ font:
     family: Iosevka
 
 colors:
-  name: Mono Theme
+  name: Cloud
   author: ""
   primary:
     background: "#000000"
@@ -24,21 +24,21 @@ colors:
     text: "#000000"
     cursor: "#ffffff"
   normal:
-    black: "#000000"
-    red: "#6b6b6b"
-    green: "#c4c4c4"
-    yellow: "#b3b3b3"
-    blue: "#999999"
-    magenta: "#717171"
-    cyan: "#8a8a8a"
-    white: "#b5cabb"
+    black: "#222827"
+    red: "#d5a8e3"
+    green: "#9c75dd"
+    yellow: "#9898ae"
+    blue: "#654a96"
+    magenta: "#625566"
+    cyan: "#a9d1df"
+    white: "#e6ebe5"
   bright:
-    black: "#202020"
-    red: "#464646"
-    green: "#f8f8f8"
-    yellow: "#eeeeee"
-    blue: "#7c7c7c"
-    magenta: "#adadad"
-    cyan: "#c0c0c0"
-    white: "#99ac9e"
-theme: Monotheme
+    black: "#5d6f74"
+    red: "#cd749c"
+    green: "#63b0b0"
+    yellow: "#c0c0dd"
+    blue: "#5786bc"
+    magenta: "#3f3442"
+    cyan: "#849da2"
+    white: "#d9d6cf"
+theme: Cloud

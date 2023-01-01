@@ -5,8 +5,6 @@
 set nocompatible
 filetype off
 
-colorscheme gruvbox
-
 call plug#begin()
 
 " statusline
@@ -39,17 +37,20 @@ Plug 'nvim-neo-tree/neo-tree.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'MunifTanjim/nui.nvim'
+Plug 'junegunn/limelight.vim'
 
 " colorscheme
 Plug 'danishprakash/vim-yami'   "yami
 Plug 'nikolvs/vim-sunbather'    "sunbather
 Plug 'n1ghtmare/noirblaze-vim'  "noirblaze
 Plug 'jaredgorski/fogbell.vim'  "fogbell(_light; lite)
+Plug 'wadackel/vim-dogrun'      "dogrun
+Plug 'owickstrom/vim-colors-paramount' "paramount
 "gruvbox
 "true-monochrome
 call plug#end()
 
-colorscheme true-monochrome
+colorscheme paramount
 
 "let g:airline_powerline_fonts = 1
 
@@ -81,6 +82,10 @@ set autoindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set termguicolors
+
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!
 
 map <F5> :NERDTreeToggle<CR>
 let FZF_DEFAULT_COMMAND='find .'

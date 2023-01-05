@@ -15,30 +15,30 @@ font:
     family: Iosevka
 
 colors:
-  name: Cloud
-  author: ""
+  name: Count Von Count
+  author: Baskerville
   primary:
     background: "#000000"
-    foreground: "#ffffff"
+    foreground: "#919191"
   cursor:
     text: "#000000"
-    cursor: "#ffffff"
+    cursor: "#919191"
   normal:
-    black: "#222827"
-    red: "#d5a8e3"
-    green: "#9c75dd"
-    yellow: "#9898ae"
-    blue: "#654a96"
-    magenta: "#625566"
-    cyan: "#a9d1df"
-    white: "#e6ebe5"
+    black: "#303030"
+    red: "#c10023"
+    green: "#a83334"
+    yellow: "#b51d2c"
+    blue: "#8c4b46"
+    magenta: "#7d534f"
+    cyan: "#9a413d"
+    white: "#c6c6c6"
   bright:
-    black: "#5d6f74"
-    red: "#cd749c"
-    green: "#63b0b0"
-    yellow: "#c0c0dd"
-    blue: "#5786bc"
-    magenta: "#3f3442"
-    cyan: "#849da2"
-    white: "#d9d6cf"
-theme: Cloud
+    black: "#5e5e5e"
+    red: "#ff8781"
+    green: "#ffa095"
+    yellow: "#ff948b"
+    blue: "#feb2aa"
+    magenta: "#ebbbb5"
+    cyan: "#ffaaa0"
+    white: "#ffffff"
+theme: Baskerville - Count Von Count

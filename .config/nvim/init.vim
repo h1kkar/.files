@@ -46,11 +46,12 @@ Plug 'n1ghtmare/noirblaze-vim'  "noirblaze
 Plug 'jaredgorski/fogbell.vim'  "fogbell(_light; lite)
 Plug 'wadackel/vim-dogrun'      "dogrun
 Plug 'owickstrom/vim-colors-paramount' "paramount
+Plug 'andreasvc/vim-256noir'    "256_noir
 "gruvbox
 "true-monochrome
 call plug#end()
 
-colorscheme paramount
+colorscheme sunbather
 
 "let g:airline_powerline_fonts = 1
 

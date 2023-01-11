@@ -10,7 +10,7 @@ hc() {
 hc emit_hook reload
 
 # startup
-feh --bg-fill "$HOME/.wp/red_moon1.jpg"
+feh --bg-fill "$HOME/.wp/lighthouse.jpg"
 setxkbmap -layout "us(basic),ru(winkeys)" -option "grp:rctrl_toggle,numpad:microsoft,grp_led:scroll"
 xrdb -merge $HOME/.Xresources
 pulseaudio -D

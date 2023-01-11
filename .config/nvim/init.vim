@@ -9,7 +9,7 @@ call plug#begin()
 
 " statusline
 "Plug 'vim-airline/vim-airline'
-"Plug 'itchyny/lightline.vim'
+Plug 'itchyny/lightline.vim'
 
 " syntax
 Plug 'tpope/vim-surround'    
@@ -40,20 +40,30 @@ Plug 'MunifTanjim/nui.nvim'
 Plug 'junegunn/limelight.vim'
 
 " colorscheme
-Plug 'danishprakash/vim-yami'   "yami
-Plug 'nikolvs/vim-sunbather'    "sunbather
-Plug 'n1ghtmare/noirblaze-vim'  "noirblaze
-Plug 'jaredgorski/fogbell.vim'  "fogbell(_light; lite)
-Plug 'wadackel/vim-dogrun'      "dogrun
-Plug 'owickstrom/vim-colors-paramount' "paramount
-Plug 'andreasvc/vim-256noir'    "256_noir
+Plug 'danishprakash/vim-yami'           "yami
+Plug 'nikolvs/vim-sunbather'            "sunbather
+Plug 'n1ghtmare/noirblaze-vim'          "noirblaze
+Plug 'jaredgorski/fogbell.vim'          "fogbell(_light; lite)
+Plug 'wadackel/vim-dogrun'              "dogrun
+Plug 'owickstrom/vim-colors-paramount'  "paramount
+Plug 'andreasvc/vim-256noir'            "256_noir
+Plug 'TheNiteCoder/mountaineer.vim'     "mountaineer(-grey; light)
+Plug 'duckwork/nirvana'                 "nirvana
+Plug 'jaredgorski/SpaceCamp'            "spacecamp(_lite)
+Plug 'ayu-theme/ayu-vim'                "ayu
 "gruvbox
 "true-monochrome
+"siori
 call plug#end()
 
-colorscheme sunbather
+colorscheme ayu
 
+"let g:airline_theme='ayu'
 "let g:airline_powerline_fonts = 1
+
+let g:lightline = {
+      \ 'colorscheme': 'ayu',
+      \ }
 
 set completeopt-=preview
 

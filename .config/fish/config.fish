@@ -9,6 +9,7 @@ set -U fish_greeting ""
 
 export VISUAL=nvim
 export EDITOR="$VISUAL"
+export CONFIG="$HOME/.config"
 export BROWSER=qutebrowser
 export XDG_CURRENT_DESKTOP=herbstluftwm
 
@@ -59,3 +60,18 @@ alias wood="cbonsai -l"
 alias calendar="khal calendar"
 alias duck="ddgr"
 alias v="nvim"
+
+# conf
+alias rc="bash $HOME/.rc"
+
+alias termrc="$EDITOR $CONFIG/alacritty/alacritty.yml"
+alias notrc="$EDITOR $CONFIG/dunst/dunstrc"
+alias shrc="$EDITOR $CONFIG/fish/config.fish"
+alias wmrc="$EDITOR $CONFIG/herbstluftwm/autostart"
+alias nvimrc="$EDITOR $CONFIG/nvim/init.vim"
+alias comprc="$EDITOR $CONFIG/picom/picom.conf"
+alias browrc="$EDITOR $CONFIG/qutebrowser/config.py"
+alias markrc="$EDITOR $CONFIG/qutebrowser/quickmarks"
+alias rofirc="$EDITOR $CONFIG/rofi/config.rasi"
+alias xresrc="$EDITOR $HOME/.Xresources"
+alias vimrc="$EDITOR $HOME/.vimrc"

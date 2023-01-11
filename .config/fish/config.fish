@@ -2,7 +2,7 @@
 #   ├┤ │└─┐├─┤
 #   └  ┴└─┘┴ ┴
 
-./.c.sh
+bash $HOME/.c.sh
 
 ### exports
 set -U fish_greeting ""
@@ -39,15 +39,16 @@ alias g="git"
 alias img="feh"
 alias flashmnt="sudo mount dev/sdc1 /home/hikkar/.flash/"
 alias dot="cd .dot/herbst_dot"
+alias rooot="chmod +x"
 
 # bin
-alias color="cd $HOME/ && ./.c.sh"
-alias fet.sh="cd $HOME && ./.fet.sh"
-alias bird="cd $HOME && cat .bird"
-alias monke="cd $HOME && cat .monke_bild"
-alias gameboy="cd $HOME && cat .gameboy"
-alias pulse="bash .pulse.sh"
-alias calc="./.calc.py"
+alias color="bash $HOME/.c.sh"
+alias fet.sh="bash $HOME/.fet.sh"
+alias bird="cat $HOME/.bird"
+alias monke="cat $HOME/.monke_bild"
+alias gameboy="cat $HOME/.gameboy"
+alias pulse="python $HOME/.pulse.py"
+alias calc="python $HOME/.calc.py"
 
 # pkgs
 alias f="ranger"

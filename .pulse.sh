@@ -1,2 +1,0 @@
-pulseaudio --kill
-pulseaudio -D

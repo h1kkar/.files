@@ -11,7 +11,7 @@ cd $HOME && ./.c.sh
 PS1='\033[1;32m\w\033[0;0m '
 
 ### exports
-export VISUAL=nano
+export VISUAL=nvim
 export EDITOR="$VISUAL"
 export BROWSER=qutebrowser
 export PATH=$PATH:$HOME/.local/bin:$HOME/bin

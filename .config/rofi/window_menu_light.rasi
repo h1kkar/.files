@@ -1,0 +1,73 @@
+configuration {
+	location: 0;
+	yoffset: 0;
+  xoffset: 0;	
+	fake-transparency: false;
+	hide-scrollbar: true;
+  fullscreen: false;
+  show-icons: true;
+}
+
+* {
+  background-color: #e6dad6;
+  font: "Cascadia Code 11";
+  text-color: #6c605a;
+}
+
+window {
+  padding: 0px;
+  height: 60%;
+  width: 35%;
+  transparency: "real";
+  border-radius: 12px;
+}
+
+mainbox {
+  children: [ inputbar, listview ];
+  padding: 0% 0% 0% 0%;
+  border: 0;
+  border-radius: 0;
+}
+
+listview {
+  columns: 1;
+  padding: 10px;
+  spacing: 2;
+}
+
+element {
+  border: 0;
+  padding: 12px;
+  border-radius: 0;
+}
+
+element-icon {
+  background-color: inherit;
+  size: 1.1em ;
+  padding: 0 10px 0 0;
+}
+
+element-text {
+  background-color: inherit;
+}
+
+element.selected {
+  background-color: #dbd0cc;
+}
+
+inputbar {
+  children: [entry];
+  padding: 4 4 0 0;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0 0 0 4;
+  border-color: #cc6652;
+}
+
+prompt {
+  enabled: false;
+}
+
+entry {
+  text-color: #6c605a;
+  padding: 8 12 8 12;
+}

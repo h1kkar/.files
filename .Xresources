@@ -3,41 +3,41 @@
 !   ┴ └─┴└─└─┘└─┘└─┘└─┘┴└─└─┘└─┘└─┘
 
 ! special
-*.foreground:   #ebdbb2
-*.background:   #282828
-*.cursorColor:  #ebdbb2
+*.foreground:   #685c56
+*.background:   #ede6e3
+*.cursorColor:  #685c56
 
 ! black
-*.color0:       #282828
-*.color8:       #928374
+*.color0:       #ede6e3
+*.color8:       #ede6e3
 
 ! red
-*.color1:       #cc241d
-*.color9:       #fb4934
+*.color1:       #3a3a3a
+*.color9:       #3a3a3a
 
 ! green
-*.color2:       #98971a
-*.color10:      #b8bb26
+*.color2:       #637a8a
+*.color10:      #637a8a
 
 ! yellow
-*.color3:       #d79921
-*.color11:      #fabd2f
+*.color3:       #aa8f7c
+*.color11:      #aa8f7c
 
 ! blue
-*.color4:       #458588
-*.color12:      #83a598
+*.color4:       #8b8f7e
+*.color12:      #8b8f7e
 
 ! magenta
-*.color5:       #b16286
-*.color13:      #d3869b
+*.color5:       #877979
+*.color13:      #877979
 
 ! cyan
-*.color6:       #689d6a
-*.color14:      #8ec07c
+*.color6:       #937f74
+*.color14:      #937f74
 
 ! white
-*.color7:       #a89984
-*.color15:      #ebdbb2
+*.color7:       #685c56
+*.color15:      #685c56
 
 URxvt.letterSpace: 0
 URxvt.lineSpace: 1
@@ -69,8 +69,8 @@ URxvt.perl-ext-common : default,keyboard-select,resize-font,url-select,confirm-p
 URxvt.keysym.A-Escape: perl:keyboard-select:activate
 URxvt.keyboard-select.clipboard: true
 
-URxvt.font: xft:Monospace:size=9:antialis=true
-URxvt.boldFont: xft:Monospace:bold:size=9:antialis=true
+URxvt*font: xft:Monospace:size=9:antialis=true
+URxvt*boldFont: xft:Monospace:bold:size=9:antialis=true
 URxvt.resize-font.step: 0.5
 URxvt.perl-ext:
 

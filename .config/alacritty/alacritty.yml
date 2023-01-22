@@ -1,7 +1,3 @@
-#  ┌─┐┬  ┌─┐┌─┐┬─┐┬┌┬┐┬ ┬┬ ┬
-#  ├─┤│  ├─┤│  ├┬┘│ │ └┬┘└┬┘
-#  ┴ ┴┴─┘┴ ┴└─┘┴└─┴ ┴  ┴  ┴
-
 custom_cursor_colors: true
 
 window:
@@ -17,28 +13,32 @@ font:
 colors:
   # Default colors
   primary:
-    background: '#0f1419'
-    foreground: '#e6e1cf'
+    background: '#ede6e3'
+    foreground: '#685c56'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '#f7f7f7'
+    cursor: '#685c56'
 
   # Normal colors
   normal:
-    black: '#0f1419'
-    red: '#f07178'
-    green: '#b8cc52'
-    yellow: '#f29718'
-    blue: '#36a3d9'
-    magenta: '#ffee99'
-    cyan: '#95e6cb'
-    white: '#ffffff'
+    black: '#ede6e3'
+    red: '#3a3a3a'
+    green: '#637a8a'
+    yellow: '#aa8f7c'
+    blue: '#8b8f7e'
+    magenta: '#877979'
+    cyan: '#937f74'
+    white: '#685c56'
 
   # Bright colors
   bright:
-    black: '#3e4b59'
-    red: '#ff3333'
-    green: '#b8cc52'
-    yellow: '#f29718'
-    blue: '#36a3d9'
-    magenta: '#ffee99'
-    cyan: '#95e6cb'
-    white: '#5c6773'
-theme: Monokai-Pro
+    black: '#ede6e3'
+    red: '#3a3a3a'
+    green: '#637a8a'
+    yellow: '#aa8f7c'
+    blue: '#8b8f7e'
+    magenta: '#877979'
+    cyan: '#937f74'
+    white: '#685c56'

@@ -2,6 +2,7 @@
 "   │││├┤ │ │└┐┌┘││││
 "   ┘└┘└─┘└─┘ └┘ ┴┴ ┴
 
+set termguicolors
 set nocompatible
 filetype off
 
@@ -9,7 +10,7 @@ call plug#begin()
 
 " statusline
 "Plug 'vim-airline/vim-airline'
-Plug 'itchyny/lightline.vim'
+"Plug 'itchyny/lightline.vim'
 
 " syntax
 Plug 'tpope/vim-surround'    
@@ -37,6 +38,7 @@ Plug 'nvim-neo-tree/neo-tree.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'MunifTanjim/nui.nvim'
+Plug 'folke/twilight.nvim'
 Plug 'junegunn/limelight.vim'
 
 " colorscheme
@@ -51,19 +53,22 @@ Plug 'TheNiteCoder/mountaineer.vim'     "mountaineer(-grey; light)
 Plug 'duckwork/nirvana'                 "nirvana
 Plug 'jaredgorski/SpaceCamp'            "spacecamp(_lite)
 Plug 'ayu-theme/ayu-vim'                "ayu
+Plug 'folke/tokyonight.nvim'            "tokyonight(-night; storm; day; moon)
+Plug 'felipevolpone/mono-theme'         "mono
+Plug 'rayes0/blossom.vim'               "blossom 
 "gruvbox
 "true-monochrome
 "siori
 call plug#end()
 
-colorscheme ayu
+:colorscheme blossom
 
 "let g:airline_theme='ayu'
 "let g:airline_powerline_fonts = 1
 
-let g:lightline = {
-      \ 'colorscheme': 'ayu',
-      \ }
+"let g:lightline = {
+"      \ 'colorscheme': 'mountaineer-light',
+"      \ }
 
 set completeopt-=preview
 
@@ -93,13 +98,14 @@ set autoindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set termguicolors
 
 autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
 
 map <F5> :NERDTreeToggle<CR>
 let FZF_DEFAULT_COMMAND='find .'
+
+map <F2> :Goyo<CR>
 
 " coc autoindent
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()

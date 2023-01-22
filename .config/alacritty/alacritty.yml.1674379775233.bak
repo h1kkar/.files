@@ -1,0 +1,38 @@
+custom_cursor_colors: true
+
+window:
+  padding:
+    x: 30
+    y: 30
+
+font:
+  size: 10
+  normal:
+    family: Iosevka
+
+colors:
+  primary:
+    background: "#f0f0f0"
+    foreground: "#2c2c2c"
+  cursor:
+    text: "#d3d3d3"
+    cursor: "#2c2c2c"
+  normal:
+    black: "#3b3228"
+    red: "#735b60"
+    green: "#beb55b"
+    yellow: "#f4bc87"
+    blue: "#8ab3b5"
+    magenta: "#a89bb9"
+    cyan: "#7bbda4"
+    white: "#d0c8c6"
+  bright:
+    black: "#7e705a"
+    red: "#73585b"
+    green: "#beb55b"
+    yellow: "#f4bc87"
+    blue: "#8ab3b5"
+    magenta: "#a89bb9"
+    cyan: "#7bbda4"
+    white: "#f5eeeb"
+theme: Mocha.dark

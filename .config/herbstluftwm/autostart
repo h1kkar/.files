@@ -10,7 +10,7 @@ hc() {
 hc emit_hook reload
 
 # startup
-feh --bg-fill "$HOME/.wp/lighthouse.jpg"
+feh --bg-fill "$HOME/.wp/fog4.jpg"
 setxkbmap -layout "us(basic),ru(winkeys)" -option "grp:rctrl_toggle,numpad:microsoft,grp_led:scroll"
 xrdb -merge $HOME/.Xresources
 pulseaudio -D
@@ -136,16 +136,16 @@ hc attr theme.tiling.reset 1
 hc attr theme.floating.reset 1
 
 #frame
-hc set frame_border_active_color '#000000'
-hc set frame_border_normal_color '#202020'
-hc set frame_bg_normal_color '#000000'
-hc set frame_bg_active_color '#202020'
+hc set frame_border_active_color '#a09c80'
+hc set frame_border_normal_color '#dad3d0'
+hc set frame_bg_normal_color '#ede6e3'
+hc set frame_bg_active_color '#ede6e3'
 
 hc set frame_border_width 3
 hc set always_show_frame on
 hc set frame_bg_transparent on
 hc set frame_transparent_width 0
-hc set frame_gap 8
+hc set frame_gap 8 
 hc set frame_padding 0
 hc set smart_frame_surroundings on
 
@@ -154,22 +154,22 @@ sc set snap_distance 10
 
 # window
 
-hc attr theme.active.color '#202020'
-hc attr theme.normal.color '#000000'
+hc attr theme.active.color '#ce9c85'
+hc attr theme.normal.color '#a09c80'
 hc attr theme.urgent.color orange
 hc attr theme.inner_width 0
-hc attr theme.inner_color '#202020'
+hc attr theme.inner_color '#ede6e3'
 hc attr theme.border_width 0
 hc attr theme.floating.border_width 3
 hc attr theme.floating.outer_width 8
-hc attr theme.floating.outer_color '#202020'
-hc attr theme.active.outer_color '#202020'
+hc attr theme.floating.outer_color '#dad3d0'
+hc attr theme.active.outer_color '#baaca7'
 hc attr theme.floating.inner_width 0
-hc attr theme.floating.inner_color '#404040'
+hc attr theme.floating.inner_color '#a09c80'
 hc attr theme.active.inner_color '#ce9c85'
-hc attr theme.background_color '#000000'
+hc attr theme.background_color '#ede6e3'
 
-hc set window_gap 2
+hc set window_gap 2 #5
 hc set smart_window_surroundings on
 hc set mouse_recenter_gap 0
 hc set raise_on_focus 0

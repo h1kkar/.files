@@ -1,0 +1,88 @@
+configuration {
+	show-icons: true;
+	drun-display-format: "{icon} {name}";
+	display-drun: "﩯";
+	display-run: "";
+	display-ssh: "";
+	location: 0;
+	yoffset: 0;
+	xoffset: 0;
+	fullscreen: false;
+	terminal: "urxvt";
+	sidebar-mode: true;
+}
+
+* {
+	font: "Cascadia Code 11";
+	background-color: #e6dad6;
+	text-color: #685c56;
+}
+
+window {
+	width: 30%;
+	height: 50%;
+	padding: 30px;
+  children: [ horibox ];
+/*  border-radius: 12px;*/
+}
+
+horibox {
+  orientation: vertical;
+  children: [ inputbar, listview ];
+}
+
+inputbar {
+	children: [ prompt, textbox-prompt-colon, entry ];
+	padding: 10px;
+}
+
+textbox-prompt-colon {
+	expand: false;
+	str: " >  ";
+  font: "Cascadia Code 12";
+}
+
+entry {
+  font: "Cascadia Code Bold Italic 11";
+}
+
+listview {
+  columns: 3;
+}
+
+element {
+  orientation: vertical;
+	padding: 15px 0 15px 0;
+}
+
+element.selected {
+	background-color: #dbd0cc;
+	padding: 15px;
+  border-radius: 12px;
+}
+
+element-text {
+  horizontal-align: 0.5;
+  vertical-align: 0.5;
+  background-color: inherit;
+}
+
+element-icon {
+  horizontal-align: 0.5;
+  vertical-align: 0.5;
+  background-color: inherit;
+	size: 2.5em;
+}
+
+/*mode-switcher {
+	children: [ button ];
+}
+
+button {
+	border-radius: 5px;
+	padding: 5px;
+}
+
+button.selected {
+	background-color: #dbd0cc;
+}*/

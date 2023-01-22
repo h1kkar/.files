@@ -15,13 +15,14 @@ Plug 'tpope/vim-surround'
 Plug 'ap/vim-css-color'
 Plug 'itchyny/lightline.vim'
 Plug 'morhetz/gruvbox'
+Plug 'duckwork/nirvana'
 call plug#end()
-
-colorscheme gruvbox
 
 if v:progname =~? "evim"
   finish
 endif
+
+colorscheme nirvana
 
 source $VIMRUNTIME/defaults.vim
 

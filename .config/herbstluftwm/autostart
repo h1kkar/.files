@@ -31,7 +31,7 @@ term=alacritty
 hc keybind $Mod-Return spawn $term 
 
 # launcher
-hc keybind $Mod-d spawn dmenu_run -b -i -fn Iosevka-9 -nb "#000000" -nf "#ffffff" -sb "#ffffff" -sf "#000000"
+hc keybind $Mod-d spawn dmenu_run -b -i -fn Iosevka-9 -nb "#ede6e3" -nf "#685c56" -sb "#685c56" -sf "#ede6e3"
 
 # screenshot
 hc keybind $Mod-Print spawn bash $HOME/.scr.sh

@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
-#   ┬ ┬┌─┐┬─┐┌┐ ┌─┐┌┬┐┬  ┬ ┬┌─┐┌┬┐┬ ┬┌┬┐
-#   ├─┤├┤ ├┬┘├┴┐└─┐ │ │  │ │├┤  │ ││││││
-#   ┴ ┴└─┘┴└─└─┘└─┘ ┴ ┴─┘└─┘└   ┴ └┴┘┴ ┴
+#    __                     __               __    ___               ___  __
+#   /\ \                   /\ \             /\ \__/\_ \            /'___\/\ \__
+#   \ \ \___      __   _ __\ \ \____    ____\ \ ,_\//\ \    __  __/\ \__/\ \ ,_\ 
+#    \ \  _ `\  /'__`\/\`'__\ \ '__`\  /',__\\ \ \/ \ \ \  /\ \/\ \ \ ,__\\ \ \/
+#     \ \ \ \ \/\  __/\ \ \/ \ \ \L\ \/\__, `\\ \ \_ \_\ \_\ \ \_\ \ \ \_/ \ \ \_
+#      \ \_\ \_\ \____\\ \_\  \ \_,__/\/\____/ \ \__\/\____\\ \____/\ \_\   \ \__\
+#       \/_/\/_/\/____/ \/_/   \/___/  \/___/   \/__/\/____/ \/___/  \/_/    \/__/
 
 hc() {
     herbstclient "$@"
@@ -10,7 +14,7 @@ hc() {
 hc emit_hook reload
 
 # startup
-feh --bg-fill "$HOME/.wp/fog4.jpg"
+feh --bg-fill "$HOME/.wp/wald.png"
 setxkbmap -layout "us(basic),ru(winkeys)" -option "grp:rctrl_toggle,numpad:microsoft,grp_led:scroll"
 xrdb -merge $HOME/.Xresources
 pulseaudio -D
@@ -27,7 +31,7 @@ hc keybind $Mod-Shift-r reload
 hc keybind $Mod-w close
 
 # term
-term=alacritty
+term=kitty
 hc keybind $Mod-Return spawn $term 
 
 # launcher
@@ -136,10 +140,10 @@ hc attr theme.tiling.reset 1
 hc attr theme.floating.reset 1
 
 #frame
-hc set frame_border_active_color '#a09c80'
-hc set frame_border_normal_color '#dad3d0'
-hc set frame_bg_normal_color '#ede6e3'
-hc set frame_bg_active_color '#ede6e3'
+hc set frame_border_active_color '#121212'
+hc set frame_border_normal_color '#1e1e1e'
+hc set frame_bg_normal_color '#1e1e1e'
+hc set frame_bg_active_color '#121212'
 
 hc set frame_border_width 3
 hc set always_show_frame on
@@ -162,12 +166,12 @@ hc attr theme.inner_color '#ede6e3'
 hc attr theme.border_width 0
 hc attr theme.floating.border_width 3
 hc attr theme.floating.outer_width 8
-hc attr theme.floating.outer_color '#dad3d0'
-hc attr theme.active.outer_color '#baaca7'
+hc attr theme.floating.outer_color '#1e1e1e'
+hc attr theme.active.outer_color '#121212'
 hc attr theme.floating.inner_width 0
 hc attr theme.floating.inner_color '#a09c80'
 hc attr theme.active.inner_color '#ce9c85'
-hc attr theme.background_color '#ede6e3'
+hc attr theme.background_color '#121212'
 
 hc set window_gap 2 #5
 hc set smart_window_surroundings on

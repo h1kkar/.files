@@ -1,6 +1,10 @@
-#   ┌─┐┬┌─┐┬ ┬
-#   ├┤ │└─┐├─┤
-#   └  ┴└─┘┴ ┴
+#      ___              __
+#    /'___\ __         /\ \
+#   /\ \__//\_\    ____\ \ \___
+#   \ \ ,__\/\ \  /',__\\ \  _ `\
+#    \ \ \_/\ \ \/\__, `\\ \ \ \ \
+#     \ \_\  \ \_\/\____/ \ \_\ \_\
+#      \/_/   \/_/\/___/   \/_/\/_/
 
 bash $HOME/.c.sh
 
@@ -22,24 +26,13 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias py="python"
-alias pi="ping 1.1.1.1 -c 1"
-alias c="clear"
 alias :q="exit"
 alias root="sudo -i"
-alias untar="tar -zxvf"
 alias gc="git clone"
-alias pac="yay -S"
-alias syu="yay -Syu"
-alias rcc="yay -Rcc"
 alias his="history"
-alias del="rm -rf"
-alias xup="xrdb ~/.Xresources"
 alias tree="exa --tree -L 2 -a"
 alias g="git"
 alias img="feh"
-alias flashmnt="sudo mount dev/sdc1 /home/hikkar/.flash/"
-alias dot="cd .dot/herbst_dot"
-alias rooot="chmod +x"
 
 # bin
 alias color="bash $HOME/.c.sh"
@@ -50,7 +43,6 @@ alias pulse="python $HOME/.pulse.py"
 alias calc="python $HOME/.calc.py"
 
 # pkgs
-alias f="ranger"
 alias m="musikcube"
 alias clock="tty-clock -c -n"
 alias ht="htop"
@@ -59,4 +51,3 @@ alias ascii="figlet -f Calvin\ S"
 alias wood="cbonsai -l"
 alias calendar="khal calendar"
 alias duck="ddgr"
-alias v="nvim"

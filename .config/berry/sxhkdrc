@@ -1,40 +1,39 @@
-#   ┌─┐─┐ ┬┬ ┬┬┌─┌┬┐
-#   └─┐┌┴┬┘├─┤├┴┐ ││
-#   └─┘┴ └─┴ ┴┴ ┴─┴┘
+# shxkdrc
 
-# term
+# basic
+
 super + Return
-	alacritty
+	kitty
 
-# ranger
-super + a
-        alacritty --hold -e ranger
+super + r
+	rofi -show drun
 
-# browser
-super + q
-        qutebrowser
-
-# launcher
-super + d
-	rofi -show run
-
-# reload sxhkd
 super + Escape
 	pkill -USR1 -x sxhkd
 
+# xf86 keys
+
+XF86Audio{LowerVolume,RaiseVolume}
+        vol {-5%,+5%}
+
+XF86MonBrightness{Up,Down}
+        bri {+5%,5%-}
+
+# berry
+
 super + {h, j, k, l}
-    berryc window_move {-25 0, 0 25, 0 -25, 25 0}
+    berryc window_move {-50 0, 0 50, 0 -50, 50 0}
 
 super + shift +  {h, j, k, l}
-    berryc window_resize {-25 0, 0 25, 0 -25, 25 0}
+    berryc window_resize {-50 0, 0 50, 0 -50, 50 0}
 
 super + {1-9}
     berryc switch_workspace {0-9}
 
-super + shift + {1-9}
+super + shift + {0-9}
     berryc send_to_workspace {0-9}
 
-super + s
+super + m
     berryc window_monocle
 
 super + f
@@ -52,11 +51,14 @@ super + n
 super + Tab
     berryc cycle_focus
 
-super + w
+super + q
     berryc window_close
 
 super + c
     berryc window_center
+
+super + shift + q
+    berryc quit
 
 ~button1
     berryc pointer_focus

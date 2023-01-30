@@ -1,28 +1,15 @@
-#!/bin/bash
-#   ┌┐ ┌─┐┬─┐┬─┐┬ ┬
-#   ├┴┐├┤ ├┬┘├┬┘└┬┘
-#   └─┘└─┘┴└─┴└─ ┴
+#!/bin/sh
 
-# decoration
 berryc border_width       0
-berryc inner_border_width 3
-berryc title_height       0
-berryc top_gap            0
+berryc inner_border_width 0
+berryc title_height       35
+berryc edge_gap           30 30 30 30
 
-berryc focus_color         404040
-berryc unfocus_color       282828
-berryc inner_focus_color   404040
-berryc inner_unfocus_color 282828
-berryc text_focus_color    EBDBB2
-berryc text_unfocus_color  EBDBB2
+berryc inner_focus_color   5a7051
+berryc inner_unfocus_color 332b26
 
+berryc draw_text "false"
 berryc smart_place "true"
-berryc draw_text   "true"
 berryc edge_lock   "true"
-berryc set_font    "eurofurence-9"
 
-# autostart
-sxhkd -c $HOME/.config/berry/sxhkdrc &
-feh --bg-fill "$HOME/.wp/wood.jpg" &
-setxkbmap -layout "us(basic),ru(winkeys)" -option "grp:rctrl_toggle,numpad:microsoft,grp_led:scroll" &
-picom
+pgrep sxhkd || sxhkd -c "$HOME/.config/berry/sxhkdrc" &

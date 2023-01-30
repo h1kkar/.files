@@ -17,8 +17,8 @@
 *  compositor: `picom`
 *  notify: `dunst`
 *  wall: `feh  nitrogen`
-*  music player: `rhythmbox  rhythmbox-plugin-yandex-music
-*  doc editor: `libreoffice fresh``
+*  music player: `rhythmbox  rhythmbox-plugin-yandex-music`
+*  doc editor: `libreoffice fresh`
 *  gtk setting: `lxappearance`
 *  sound framework: `pulseaudio`
 

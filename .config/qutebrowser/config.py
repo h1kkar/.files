@@ -89,4 +89,4 @@ for k,v in qsites.items():
 
 # colors
 
-config.source("everblush.py")
+config.source("color.py")

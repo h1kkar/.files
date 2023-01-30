@@ -1,17 +1,17 @@
 # ~/.config/qutebrowser/everblush.py -*- Everblush theme.
 
 # Colors.
-bg0     = "#141b1e"
-bg1     = "#232a2d"
-bg2     = "#2d3437"
-fg0     = "#dadada"
-fg1     = "#b3b9b8"
-red     = "#e54747"
-blue    = "#67b0e8"
-green   = "#8ccf7e"
-yellow  = "#e5c76b"
-cyan    = "#6cbfbf"
-magenta = "#c47fd5"
+bg0     = "#151515"
+bg1     = "#151515"
+bg2     = "#151515"
+fg0     = "#e8e8e8"
+fg1     = "#e8e8e8"
+red     = "#b66467"
+blue    = "#8da3b9"
+green   = "#8c977d"
+yellow  = "#d9bc8c"
+cyan    = "#8aa6a2"
+magenta = "#a988b0"
 
 # --- Applying colors --- #
 

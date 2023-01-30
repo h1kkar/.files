@@ -59,6 +59,7 @@ hilbish.alias ('tree', 'exa --tree -L 2 -a')
 hilbish.alias ('g', 'git')
 hilbish.alias ('img', 'feh')
 hilbish.alias ('c', 'clear')
+hilbish.alias ('psl', 'pls')
 
 -- bin
 hilbish.alias ('color', 'bash $HOME/.c.sh')

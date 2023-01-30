@@ -23,7 +23,8 @@
 *  sound framework: `pulseaudio`
 **screenshot**
 <img src="https://github.com/h1kkar/herbst_dot/blob/master/.screenshot/scr.png">
-
+<img src="https://github.com/h1kkar/herbst_dot/blob/master/.screenshot/scr_001.png">
+<img src="https://github.com/h1kkar/herbst_dot/blob/master/.screenshot/scr_002.png">
 **other sotfware:**
 *  other wm's: `awesome  berry  bspwm  sway`
 *  other shells: `sh  bash  fish (ohmyfish fisher omf)  nushell  zsh (ohmyzsh)`

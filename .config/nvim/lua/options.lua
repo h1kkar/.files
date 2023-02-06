@@ -47,7 +47,7 @@ opt.smartindent = true
 opt.showmatch = true
 opt.smartcase = true
 opt.whichwrap:append "<>[]hl"
-
+opt.linebreak = true
 -- remove intro
 opt.shortmess:append "sI"
 

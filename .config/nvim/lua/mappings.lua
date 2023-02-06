@@ -65,6 +65,3 @@ map("i", "<C-A>", "<Home>")
 
 -- Shift tab
 map("i", "<S-TAB>", "<ESC><<<Ins>")
-
--- Goyo Map
-map("i", "<F2>", ":Goyo<CR>")

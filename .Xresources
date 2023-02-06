@@ -5,41 +5,41 @@
 !    \//\/_/ \/_/ \/____/\/___/  \/___/  \/___/  \/_/ \/____/\/____/\/___/
 
 ! special
-*.foreground:   #685c56
-*.background:   #ede6e3
-*.cursorColor:  #685c56
+*.foreground:   #e8e8e8
+*.background:   #151515
+*.cursorColor:  #e8e8e8
 
 ! black
-*.color0:       #ede6e3
-*.color8:       #ede6e3
+*.color0:       #151515
+*.color8:       #424242
 
 ! red
-*.color1:       #3a3a3a
-*.color9:       #3a3a3a
+*.color1:       #b66467
+*.color9:       #b66467
 
 ! green
-*.color2:       #637a8a
-*.color10:      #637a8a
+*.color2:       #8c977d
+*.color10:      #8c977d
 
 ! yellow
-*.color3:       #aa8f7c
-*.color11:      #aa8f7c
+*.color3:       #d9bc8c
+*.color11:      #d9bc8c
 
 ! blue
-*.color4:       #8b8f7e
-*.color12:      #8b8f7e
+*.color4:       #8da3b9
+*.color12:      #8da3b9
 
 ! magenta
-*.color5:       #877979
-*.color13:      #877979
+*.color5:       #a988b0
+*.color13:      #a988b0
 
 ! cyan
-*.color6:       #937f74
-*.color14:      #937f74
+*.color6:       #8aa6a2
+*.color14:      #8aa6a2
 
 ! white
-*.color7:       #685c56
-*.color15:      #685c56
+*.color7:       #e8e8e8
+*.color15:      #e8e8e8
 
 URxvt.letterSpace: 0
 URxvt.lineSpace: 1

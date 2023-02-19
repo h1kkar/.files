@@ -1,5 +1,7 @@
 #!/bin/lua
 
+-- h1kkar pls util
+
 -- HELP FUNCTION --
 local function help()
 print ()

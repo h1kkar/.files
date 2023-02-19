@@ -3,7 +3,7 @@
 -- HELP FUNCTION --
 local function help()
 print ()
-print (" usage: pls [command]")
+print ("usage: pls [command]")
 print ()
 print ("available commands:")
 print ("    dunst               open config dunst")

@@ -4,7 +4,8 @@
 
 ---
 ###### About
-*  distro: `arcolinuxd`
+*  os: `archcraft`
+*  kr: `6.1.12`
 *  sh: `hilbish` 
 *  term: `kitty`
 *  wm: `herbstluftwm`

@@ -14,7 +14,7 @@ hc() {
 hc emit_hook reload
 
 # startup
-feh --bg-fill "$HOME/.wp/wald.png"
+feh --bg-fill "$HOME/.wp/flowers3.jpg"
 setxkbmap -layout "us(basic),ru(winkeys)" -option "grp:rctrl_toggle,numpad:microsoft,grp_led:scroll"
 xrdb -merge $HOME/.Xresources
 pulseaudio -D
@@ -31,7 +31,7 @@ hc keybind $Mod-Shift-r reload
 hc keybind $Mod-w close
 
 # term
-term=kitty
+term=alacritty
 hc keybind $Mod-Return spawn $term 
 
 # launcher
@@ -140,10 +140,15 @@ hc attr theme.tiling.reset 1
 hc attr theme.floating.reset 1
 
 #frame
-hc set frame_border_active_color '#121212'
-hc set frame_border_normal_color '#1e1e1e'
-hc set frame_bg_normal_color '#1e1e1e'
-hc set frame_bg_active_color '#121212'
+active1='#9ccfd8'
+active2='#9ccfd8'
+normal1='#6e6a86'
+normal2='#6e6a86'
+
+hc set frame_border_active_color $active1
+hc set frame_border_normal_color $normal1
+hc set frame_bg_normal_color $normal1
+hc set frame_bg_active_color $active1
 
 hc set frame_border_width 3
 hc set always_show_frame on
@@ -158,20 +163,20 @@ sc set snap_distance 10
 
 # window
 
-hc attr theme.active.color '#ce9c85'
-hc attr theme.normal.color '#a09c80'
+hc attr theme.active.color $active2
+hc attr theme.normal.color $normal2
 hc attr theme.urgent.color orange
 hc attr theme.inner_width 0
 hc attr theme.inner_color '#ede6e3'
 hc attr theme.border_width 0
 hc attr theme.floating.border_width 3
 hc attr theme.floating.outer_width 8
-hc attr theme.floating.outer_color '#1e1e1e'
-hc attr theme.active.outer_color '#121212'
+hc attr theme.floating.outer_color $normal1
+hc attr theme.active.outer_color $active1
 hc attr theme.floating.inner_width 0
-hc attr theme.floating.inner_color '#a09c80'
-hc attr theme.active.inner_color '#ce9c85'
-hc attr theme.background_color '#121212'
+hc attr theme.floating.inner_color $normal2
+hc attr theme.active.inner_color $active2
+hc attr theme.background_color $active1
 
 hc set window_gap 2 #5
 hc set smart_window_surroundings on
@@ -203,5 +208,5 @@ done
 
 hc auto_detect_monitors
 
-python $HOME/.pulse.py
+pls pulse
 picom

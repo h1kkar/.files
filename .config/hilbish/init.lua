@@ -12,8 +12,6 @@ bait.catch('command.exit', function(code)
 	doPrompt(code ~= 0)
 end)
 
-ansikit.cursorStyle(ansikit.lineCursor)
-
 commander.register('ver', function()
 	print(hilbish.ver)
 end)
@@ -52,13 +50,14 @@ hilbish.alias ('g', 'git')
 hilbish.alias ('img', 'feh')
 hilbish.alias ('c', 'clear')
 hilbish.alias ('psl', 'pls')
+hilbish.alias ('ttrs', 'tetris -p ⣿⣿')
+hilbish.alias ('plsdir', 'cd .files/pls')
 
 -- bin
 hilbish.alias ('color', 'bash $HOME/.c.sh')
 hilbish.alias ('bird', 'cat $HOME/.bird')
 hilbish.alias ('monke', 'cat $HOME/.monke_bild')
 hilbish.alias ('gameboy', 'cat $HOME/.gameboy')
-hilbish.alias ('calc', 'python $HOME/.calc.py')
 
 -- pkgs
 hilbish.alias ('m', 'musikcube')
@@ -72,4 +71,4 @@ hilbish.alias ('duck', 'ddgr')
 hilbish.alias ('v', 'nvim')
 hilbish.alias ('f', 'ranger')
 
-hilbish.runner.sh ('fetch')
+hilbish.runner.sh ('fetch -c $HOME/.config/fetch/conf/cat')

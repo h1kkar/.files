@@ -130,3 +130,6 @@ dmypy.json
 
 # Obsidian project
 .obsidian
+
+# copy file
+.copy

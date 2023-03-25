@@ -38,19 +38,13 @@ hc keybind $Mod-Return spawn $term
 hc keybind $Mod-d spawn dmenu_run -b -i -fn Iosevka-9 -nb "#ede6e3" -nf "#685c56" -sb "#685c56" -sf "#ede6e3"
 
 # screenshot
-hc keybind $Mod-Print spawn bash $HOME/.scr.sh
+hc keybind $Mod-Print spawn pls scr
 
 # ranger
 hc keybind $Mod-a spawn $term --hold -e ranger
 
 # qutebrowser
 hc keybind $Mod-q spawn qutebrowser
-
-# config manager
-hc keybind $Mod-m spawn $term --hold -e bash $HOME/.conf.sh
-
-# power manager
-hc keybind $Mod-x spawn $term --hold -e bash $HOME/.power.sh
 
 # focusing clients
 hc keybind $Mod-Left  focus left

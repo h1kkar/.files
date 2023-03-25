@@ -1,37 +1,22 @@
-fn = vim.fn
-api = vim.api
-cmd = vim.cmd
-opt = vim.opt
-g = vim.g
+require "core"
 
-_G.theme = "paradise"
+local custom_init_path = vim.api.nvim_get_runtime_file("lua/custom/init.lua", false)[1]
 
-local modules = {
-  'options',
-  'mappings',
-  'statusline',
-  'colors',
-  'plugins',
-}
-
-for _, a in ipairs(modules) do
-  local ok, err = pcall(require, a)
-  if not ok then
-    error("Error calling " .. a .. err)
-  end
+if custom_init_path then
+  dofile(custom_init_path)
 end
 
--- Auto commands
-api.nvim_create_autocmd({"TermOpen", "TermEnter"}, {
-  pattern = "term://*",
-  command = "setlocal nonumber norelativenumber signcolumn=no | setfiletype terminal",
-})
+require("core.utils").load_mappings()
 
-api.nvim_create_autocmd("BufEnter", {
-  pattern = "term://*",
-  command = "startinsert"
-})
+local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
 
-api.nvim_create_autocmd("VimLeave", {
-  command = "set guicursor=a:ver20",
-})
+-- bootstrap lazy.nvim!
+if not vim.loop.fs_stat(lazypath) then
+  require("core.bootstrap").gen_chadrc_template()
+  require("core.bootstrap").lazy(lazypath)
+end
+
+vim.opt.rtp:prepend(lazypath)
+require "plugins"
+
+dofile(vim.g.base46_cache .. "defaults")

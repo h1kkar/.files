@@ -13,7 +13,7 @@ font:
     style: Medium
 
   bold:
-    family: Iosevka Nerd Font
+    family: Cozette
     style: Bold
 
   size: 10.0
@@ -22,4 +22,4 @@ cursor:
   style: Beam
 
 import:
-  - /home/yes/.config/alacritty/rose-pine.yml
+  - /home/yes/.config/alacritty/oxocarbone.yml

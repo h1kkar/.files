@@ -25,9 +25,9 @@
 
 **screenshot**
 
-<img src="https://github.com/h1kkar/herbst_dot/blob/master/.screenshot/scr.png">
-<img src="https://github.com/h1kkar/herbst_dot/blob/master/.screenshot/scr_001.png">
-<img src="https://github.com/h1kkar/herbst_dot/blob/master/.screenshot/scr_002.png">
+<img src="https://github.com/h1kkar/herbst_dot/blob/master/.scrots/scr.png">
+<img src="https://github.com/h1kkar/herbst_dot/blob/master/.scrots/scr_001.png">
+<img src="https://github.com/h1kkar/herbst_dot/blob/master/.scrots/scr_002.png">
 **other sotfware:**
 
 *  other wm's: `awesome  berry  bspwm  hebstluftwm sway`
